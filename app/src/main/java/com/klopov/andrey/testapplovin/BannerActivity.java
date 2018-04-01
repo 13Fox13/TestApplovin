@@ -18,9 +18,6 @@ import com.applovin.sdk.AppLovinAdSize;
  * Created by andrejklopov on 30.03.2018.
  */
 
-// Доброго времени суток. Сделал на столько, на сколько разобрался
-// Оно работает, запускается, но... Не работает. Готов исправить в
-// в рабочем процессе.
 
 public class BannerActivity extends AppCompatActivity {
 

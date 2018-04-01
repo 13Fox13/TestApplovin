@@ -8,13 +8,15 @@ import com.yandex.metrica.YandexMetrica;
  * Created by andrejklopov on 31.03.2018.
  */
 
-public class AppMetrica extends Application {
+public class AppMetrica extends android.app.Application {
+
+    public static final String YANDEXMETRICA_ID = "280dbc21-175f-43fa-87df-b3d0a58cb352";
+
     @Override
     public void onCreate() {
         super.onCreate();
         // Инициализация AppMetrica SDK
-        String API_key = "280dbc21-175f-43fa-87df-b3d0a58cb352";
-        YandexMetrica.activate(getApplicationContext(), API_key);
+        YandexMetrica.activate(getApplicationContext(), YANDEXMETRICA_ID);
         // Отслеживание активности пользователей
         YandexMetrica.enableActivityAutoTracking(this);
     }

@@ -18,10 +18,6 @@ import com.applovin.sdk.AppLovinSdk;
  * Created by andrejklopov on 30.03.2018.
  */
 
-// Доброго времени суток. Сделал на столько, на сколько разобрался
-// Оно работает, запускается, но... Не работает. Готов исправить в
-// в рабочем процессе.
-
 public class InterstitialActivity extends AppCompatActivity implements AppLovinAdLoadListener, AppLovinAdDisplayListener, AppLovinAdClickListener, AppLovinAdVideoPlaybackListener {
 
     private AppLovinInterstitialAdDialog interstitialAd;

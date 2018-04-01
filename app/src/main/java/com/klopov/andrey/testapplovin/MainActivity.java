@@ -8,10 +8,6 @@ import com.applovin.sdk.AppLovinAdLoadListener;
 import com.applovin.sdk.AppLovinAdSize;
 import com.applovin.sdk.AppLovinSdk;
 
-// Доброго времени суток. Сделал на столько, на сколько разобрался
-// Оно работает, запускается, но... Не работает. Готов исправить в
-// в рабочем процессе.
-
 public class MainActivity extends AppCompatActivity {
 
     private AppLovinAd loadedAd;

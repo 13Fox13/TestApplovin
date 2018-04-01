@@ -15,10 +15,6 @@ import java.util.List;
  * Created by andrejklopov on 30.03.2018.
  */
 
-// Доброго времени суток. Сделал на столько, на сколько разобрался
-// Оно работает, запускается, но... Не работает. Готов исправить в
-// в рабочем процессе.
-
 public class NativeActivity extends AppCompatActivity {
     private static final int NUM_ADS_TO_LOAD = 1;
 

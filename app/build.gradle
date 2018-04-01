@@ -9,6 +9,7 @@ android {
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
     }
     buildTypes {
         release {
@@ -26,6 +27,6 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
     compile 'com.applovin:applovin-sdk:7.8.6'
-    compile'com.google.android.gms:play-services-ads:12.0.1'
+    compile 'com.google.android.gms:play-services-ads:12.0.1'
     compile 'com.yandex.android:mobmetricalib:2.80'
 }
